@@ -31,4 +31,4 @@
 
 9. パラメータを調整すると、右側に CURL コマンドが生成されます。次のことができます:
    - このコマンドを使用して、[Trigger Data Collection API](https://docs.brightdata.com/scraping-automation/web-data-apis/web-scraper-api/trigger-a-collection) を直接実行します
-   - これらのパラメータを、[code](https://github.com/luminati-io/Google-News-Scraper?tab=readme-ov-file#ready-to-use-python-code) 内の `_trigger_collection` 関数に [渡します](https://github.com/luminati-io/Google-News-Scraper?tab=readme-ov-file#key-input-parameters)
+   - これらのパラメータを、[code](https://github.com/bright-jp/Google-News-Scraper?tab=readme-ov-file#ready-to-use-python-code) 内の `_trigger_collection` 関数に [渡します](https://github.com/bright-jp/Google-News-Scraper?tab=readme-ov-file#key-input-parameters)
