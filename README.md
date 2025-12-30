@@ -1,10 +1,10 @@
 # Google News Scraper
 
-[![Promo](https://github.com/luminati-io/Google-News-Scraper/blob/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.com/products/serp-api/google-search/news?promo=github15) 
+[![Promo](https://github.com/luminati-io/Google-News-Scraper/blob/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.jp/products/serp-api/google-search/news?promo=github15) 
 
-This repository provides two methods to collect news data from Google News.
-- **Free Method:** Perfect for small projects and learning
-- **Google News API:** Ideal for large-scale, reliable, real-time data extraction
+このリポジトリでは、Google News からニュースデータを収集するための 2 つの方法を提供します。
+- **無料の方法:** 小規模プロジェクトや学習に最適です
+- **Google News API:** 大規模で信頼性が高く、リアルタイムのデータ抽出に最適です
 
 ## Table of Contents
 
@@ -26,33 +26,33 @@ This repository provides two methods to collect news data from Google News.
 ## Method 1: Free Google News Scraper
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/a7d34ffe-17c6-4c59-acbf-aaf84ed1b13e">
 
-This free tool lets you collect news articles based on any topic you're interested in. You'll get everything from headlines to publication dates, all neatly organized.
+この無料ツールを使用すると、興味のある任意のトピックに基づいてニュース記事を収集できます。見出しから公開日まで、すべてがきれいに整理された形で取得できます。
 
 ### Prerequisites
 - Python 3.9+
-- Two key packages:
-  - [aiohttp](https://pypi.org/project/aiohttp/) (for making requests)
-  - [beautifulsoup4](https://pypi.org/project/beautifulsoup4/) (for parsing HTML)
+- 主要パッケージ 2 つ:
+  - [aiohttp](https://pypi.org/project/aiohttp/)（リクエスト送信用）
+  - [beautifulsoup4](https://pypi.org/project/beautifulsoup4/)（HTML 解析用）
 
 ### Installation
-1. Clone the repository:
+1. リポジトリをクローンします:
 
     ```bash
     git clone https://github.com/luminati-io/Google-News-Scraper.git
     ```
-3. Navigate to the project directory:
+3. プロジェクトディレクトリに移動します:
 
     ```bash
     cd Google-News-Scraper
     ```
-4. Install required dependencies:
+4. 必要な依存関係をインストールします:
 
     ```bash
     pip install -r requirements.txt
     ```
 ### Usage
-1. Navigate to the `free_scraper` directory and open `main.py`
-2. Define your search terms in the file:
+1. `free_scraper` ディレクトリに移動し、`main.py` を開きます
+2. ファイル内で検索語を定義します:
 
     ```bash
     search_terms = [
@@ -62,17 +62,17 @@ This free tool lets you collect news articles based on any topic you're interest
         # Add more search terms as needed
     ]
     ```
-3. Run the scraper:
+3. スクレイパーを実行します:
 
     ```bash
     python main.py
     ```
 ### Output
-The scraper generates JSON files:
-- Individual JSON files for each search term
-- A `combined_results.json` file containing data from all search terms
+スクレイパーは JSON ファイルを生成します:
+- 検索語ごとの個別 JSON ファイル
+- すべての検索語のデータを含む `combined_results.json` ファイル
 
-Each article in the JSON output contains:
+JSON 出力内の各記事には次が含まれます:
 ```json
 {
     "title": "OpenAI launches full o1 model with image uploads and analysis, debuts ChatGPT Pro - VentureBeat",
@@ -84,37 +84,37 @@ Each article in the JSON output contains:
 }
 ```
 
-👉 You can find a complete example output in our [free_scraper/data/](https://github.com/luminati-io/Google-News-Scraper/tree/main/free_scraper/data) directory.
+👉 完全な出力例は、[free_scraper/data/](https://github.com/luminati-io/Google-News-Scraper/tree/main/free_scraper/data) ディレクトリで確認できます。
 
 ## Common Scraping Challenges
-Scraping data from Google News can be quite challenging. Here are some common issues you may encounter:
-1. **CAPTCHA and Anti-Bot Mechanisms:** Google often employs CAPTCHAs or rate-limiting mechanisms to prevent bots from accessing its content.
-2. **Scalability:** Scraping large volumes of data or performing high-frequency scraping can overwhelm free scrapers.
-3. **Global and Localized News Access:** Customizing scrapers for different regions and languages often requires significant effort and manual adjustments.
+Google News からのスクレイピングはかなり難しい場合があります。よくある問題は次のとおりです:
+1. **CAPTCHA とアンチボットの仕組み:** Google はボットがコンテンツにアクセスするのを防ぐため、CAPTCHA やレート制限の仕組みを頻繁に採用しています。
+2. **スケーラビリティ:** 大量データのスクレイピングや高頻度のスクレイピングは、無料スクレイパーでは負荷が大きすぎる場合があります。
+3. **グローバルおよびローカライズされたニュースへのアクセス:** 地域や言語が異なるスクレイパーをカスタマイズするには、多くの場合かなりの労力と手動調整が必要です。
 
 ## Method 2: Bright Data Google News API
-Want something more robust? Let's talk about [Bright Data's Google News API](https://brightdata.com/products/serp-api/google-search/news). Here's why it's worth considering:
+より堅牢な仕組みが必要ですか？ [Bright Data の Google News API](https://brightdata.jp/products/serp-api/google-search/news) についてご紹介します。検討する価値がある理由は次のとおりです:
 
 ### Key Benefits
-- **Zero Infrastructure Headaches:** Forget about proxies and CAPTCHAs
-- **Built to Scale:** Handles heavy traffic with exceptional performance
-- **Global Reach:** Get news from any country, any language
-- **Privacy First:** GDPR & CCPA compliant
-- **Pay for Success:** Only charged for successful requests
-- **Try Before You Buy:** 20 free API calls to test things out
+- **インフラの悩みはゼロ:** プロキシや CAPTCHA のことは忘れてください
+- **スケール前提:** 高トラフィックを優れたパフォーマンスで処理します
+- **グローバル対応:** どの国・どの言語のニュースも取得できます
+- **プライバシー優先:** GDPR および CCPA に準拠
+- **成功課金:** 成功したリクエストに対してのみ課金されます
+- **購入前に試せます:** テスト用に API を 20 回無料で呼び出せます
 
 ## Getting Started with the Google News API
-> For a detailed guide on setting up the Google News API, check our [Step-by-Step Setup Guide](https://github.com/luminati-io/Google-News-Scraper/blob/main/google_news_api_setup.md).
+> Google News API のセットアップに関する詳細ガイドは、[Step-by-Step Setup Guide](https://github.com/luminati-io/Google-News-Scraper/blob/main/google_news_api_setup.md) をご覧ください。
 ### Key Input Parameters
 | **Parameter**| **Required?** | **Description**                                            | **Example**               |
 |---------------|--------------|------------------------------------------------------------|---------------------------|
-| `url`         | Yes          | Base Google News URL                                   | `news.google.com`|
-| `keyword`     | Yes          | Your search topic                        | `"ChatGPT"`             |
-| `country`     | No           | Where to get news from                                | `"US"`                    |
-| `language`    | No           | What language you want                                | `"en"`                    |
+| `url`         | Yes          | ベースとなる Google News URL                                   | `news.google.com`|
+| `keyword`     | Yes          | 検索トピック                        | `"ChatGPT"`             |
+| `country`     | No           | ニュースの取得元の国                                | `"US"`                    |
+| `language`    | No           | 希望する言語                                | `"en"`                    |
 
 ### Sample Result
-Here’s what the API returns:
+API は次のような結果を返します:
 ```json
 {
     "url": "https://www.tomsguide.com/news/live/12-days-of-openai-live-blog-chatgpt-sora",
@@ -134,10 +134,10 @@ Here’s what the API returns:
     },
 }
 ```
-👉 You can find a complete example output in our [news_scraper_output.json](https://github.com/luminati-io/Google-News-Scraper/blob/main/google-news-api-scraper/data/news_scraper_output.json) file.
+👉 完全な出力例は、[news_scraper_output.json](https://github.com/luminati-io/Google-News-Scraper/blob/main/google-news-api-scraper/data/news_scraper_output.json) ファイルで確認できます。
 
 ### Ready-to-Use Python Code
-Here's a script to get you started:
+開始用のスクリプトはこちらです:
 ```python
 import requests
 import json
@@ -211,7 +211,7 @@ class BrightDataNews:
         )
         return response.json()
 ```
-Here's how to use it:
+使用方法はこちらです:
 ```python
 # Initialize the client
 news_client = BrightDataNews("<YOUR_API_TOKEN>")
@@ -240,33 +240,33 @@ except Exception as e:
     print(f"Collection failed: {str(e)}")
 ```
 ### Understanding the API Implementation
-1. **Setting Up Your API Token**
-    - First things first: you'll need an API token
-    - If you haven't got one yet, check out our [setup guide](https://github.com/luminati-io/Google-News-Scraper/blob/main/google_news_api_setup.md)
-2. **Starting the Collection**
-    - Pass your search parameters to the API
-    - You'll get back a `snapshot_id`
-3. **Monitoring Progress**
-    - The process takes a few minutes
-    - Our code checks the status automatically:
-      - "running" = Still collecting your data
-      - "ready" = Time to collect your results!
-4. **Getting Your Data**
-    - Once the status shows "ready", we fetch and save your results
-    - Data comes in clean JSON format
-    - Each article includes all the fields we discussed earlier
+1. **API トークンの設定**
+    - まず最初に、API トークンが必要です
+    - まだお持ちでない場合は、[setup guide](https://github.com/luminati-io/Google-News-Scraper/blob/main/google_news_api_setup.md) をご確認ください
+2. **収集の開始**
+    - 検索パラメータを API に渡します
+    - `snapshot_id` が返ってきます
+3. **進捗のモニタリング**
+    - 処理には数分かかります
+    - このコードではステータスを自動的に確認します:
+      - "running" = データ収集中
+      - "ready" = 結果を取得するタイミングです！
+4. **データの取得**
+    - ステータスが "ready" になったら、結果を取得して保存します
+    - データは整った JSON 形式で提供されます
+    - 各記事には、先ほど説明したすべてのフィールドが含まれます
 
 ## Customizing Your Data Collection
-You can use the following parameters to fine-tune your results:
+次のパラメータを使用して、結果を微調整できます:
 | **Parameter**       | **Type**   | **Description**                                            | **Example**                  |
 |---------------------|------------|------------------------------------------------------------|------------------------------|
-| `limit`             | `integer`  | Max results per input                                   | `limit=10`                   |
-| `include_errors`    | `boolean`  | Get error reports for troubleshooting                     | `include_errors=true`        |
-| `notify`            | `url`      | Webhook notification URL to be notified upon completion  | `notify=https://notify-me.com/` |
-| `format`            | `enum`     | Output format (e.g., JSON, NDJSON, JSONL, CSV)         | `format=json`                |
+| `limit`             | `integer`  | 入力あたりの最大結果数                                   | `limit=10`                   |
+| `include_errors`    | `boolean`  | トラブルシューティング用にエラーレポートを取得します                     | `include_errors=true`        |
+| `notify`            | `url`      | 完了時に通知を受け取るための Webhook 通知 URL  | `notify=https://notify-me.com/` |
+| `format`            | `enum`     | 出力形式（例: JSON, NDJSON, JSONL, CSV）         | `format=json`                |
 
-💡 **Pro Tip:** You can also select whether to deliver the data to an [external storage](https://docs.brightdata.com/scraping-automation/web-data-apis/web-scraper-api/overview#via-deliver-to-external-storage) or to deliver it to a [webhook](https://docs.brightdata.com/scraping-automation/web-data-apis/web-scraper-api/overview#via-webhook).
+💡 **Pro Tip:** データを [external storage](https://docs.brightdata.com/scraping-automation/web-data-apis/web-scraper-api/overview#via-deliver-to-external-storage) に配信するか、[webhook](https://docs.brightdata.com/scraping-automation/web-data-apis/web-scraper-api/overview#via-webhook) に配信するかも選択できます。
 
 ----
 
-Need more details? Check the [official API docs](https://docs.brightdata.com/scraping-automation/web-data-apis/web-scraper-api/overview).
+さらに詳細が必要な場合は、[official API docs](https://docs.brightdata.com/scraping-automation/web-data-apis/web-scraper-api/overview) をご確認ください。
