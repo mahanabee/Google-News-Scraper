@@ -1,6 +1,6 @@
 # Google News Scraper
 
-[![Promo](https://github.com/luminati-io/Google-News-Scraper/blob/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.jp/products/serp-api/google-search/news?promo=github15) 
+[![Promo](https://github.com/bright-jp/Google-News-Scraper/blob/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.jp/products/serp-api/google-search/news?promo=github15) 
 
 このリポジトリでは、Google News からニュースデータを収集するための 2 つの方法を提供します。
 - **無料の方法:** 小規模プロジェクトや学習に最適です
@@ -38,7 +38,7 @@
 1. リポジトリをクローンします:
 
     ```bash
-    git clone https://github.com/luminati-io/Google-News-Scraper.git
+    git clone https://github.com/bright-jp/Google-News-Scraper.git
     ```
 3. プロジェクトディレクトリに移動します:
 
@@ -84,7 +84,7 @@ JSON 出力内の各記事には次が含まれます:
 }
 ```
 
-👉 完全な出力例は、[free_scraper/data/](https://github.com/luminati-io/Google-News-Scraper/tree/main/free_scraper/data) ディレクトリで確認できます。
+👉 完全な出力例は、[free_scraper/data/](https://github.com/bright-jp/Google-News-Scraper/tree/main/free_scraper/data) ディレクトリで確認できます。
 
 ## Common Scraping Challenges
 Google News からのスクレイピングはかなり難しい場合があります。よくある問題は次のとおりです:
@@ -104,7 +104,7 @@ Google News からのスクレイピングはかなり難しい場合があり�
 - **購入前に試せます:** テスト用に API を 20 回無料で呼び出せます
 
 ## Getting Started with the Google News API
-> Google News API のセットアップに関する詳細ガイドは、[Step-by-Step Setup Guide](https://github.com/luminati-io/Google-News-Scraper/blob/main/google_news_api_setup.md) をご覧ください。
+> Google News API のセットアップに関する詳細ガイドは、[Step-by-Step Setup Guide](https://github.com/bright-jp/Google-News-Scraper/blob/main/google_news_api_setup.md) をご覧ください。
 ### Key Input Parameters
 | **Parameter**| **Required?** | **Description**                                            | **Example**               |
 |---------------|--------------|------------------------------------------------------------|---------------------------|
@@ -134,7 +134,7 @@ API は次のような結果を返します:
     },
 }
 ```
-👉 完全な出力例は、[news_scraper_output.json](https://github.com/luminati-io/Google-News-Scraper/blob/main/google-news-api-scraper/data/news_scraper_output.json) ファイルで確認できます。
+👉 完全な出力例は、[news_scraper_output.json](https://github.com/bright-jp/Google-News-Scraper/blob/main/google-news-api-scraper/data/news_scraper_output.json) ファイルで確認できます。
 
 ### Ready-to-Use Python Code
 開始用のスクリプトはこちらです:
@@ -242,7 +242,7 @@ except Exception as e:
 ### Understanding the API Implementation
 1. **API トークンの設定**
     - まず最初に、API トークンが必要です
-    - まだお持ちでない場合は、[setup guide](https://github.com/luminati-io/Google-News-Scraper/blob/main/google_news_api_setup.md) をご確認ください
+    - まだお持ちでない場合は、[setup guide](https://github.com/bright-jp/Google-News-Scraper/blob/main/google_news_api_setup.md) をご確認ください
 2. **収集の開始**
     - 検索パラメータを API に渡します
     - `snapshot_id` が返ってきます
